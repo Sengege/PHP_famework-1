@@ -1,0 +1,123 @@
+/* ===== Portfolio ===== */
+#isotope-container .portfolio-item {
+  margin-bottom: 10px;
+  margin-right: -20px;
+}
+.project-filter {
+  display: block;
+  margin: 0 0 30px 15px;
+  font-size: 12px;
+  padding-bottom: 0px;
+}
+.project-filter:after {
+  display: block;
+  visibility: hidden;
+  clear: both;
+  width: 0;
+  height: 0;
+  content: ' ';
+  font-size: 0;
+  line-height: 0;
+}
+.project-filter ul {
+  margin: 0;
+  padding: 0;
+  outline: 0;
+  border: 0;
+  background: transparent;
+  vertical-align: baseline;
+  font-size: 100%;
+}
+.project-filter li {
+  display: block;
+  float: left;
+  margin: 0;
+  list-style: none;
+  margin-bottom: 5px;
+  margin-right: 5px;  
+}
+.project-filter a {
+  display: block;
+  margin: 0 0px 0 0;
+  color: #252728;
+  padding: 9px 10px;
+  line-height: 12px;
+  font-size: 13px;
+  display: block;
+  border: 1px solid #ececec;
+  border-radius: 4px;
+  background: #f4f6f5;
+  font-weight: bold;
+}
+.project-filter a.active:hover,
+.project-filter a:hover,
+.project-filter a.active {
+  background: #f07057;
+  border: 1px solid #f07057;
+  border-radius: 4px;
+}
+.project-filter a.active:hover,
+.project-filter a:hover,
+.project-filter a.active {
+ color: #fff;
+}
+.portfolio-item {
+  margin-bottom: 10px;  
+}
+.portfolio-item > .portfolio-thumbnail {
+  position: relative;
+  overflow: hidden;
+  border-radius: 4px;
+}
+.portfolio-item > .portfolio-thumbnail img {
+  border-radius: 4px;
+}
+.portfolio-item > .portfolio-thumbnail > .mask {
+  position: absolute;
+  left: 0;
+  width: 100%;
+  top: 0;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.498039) !important;
+  color: #ffffff;
+  opacity: 0;
+  border-radius: 4px;
+  -webkit-transition: opacity 300ms;
+  -moz-transition: opacity 300ms;
+  transition: opacity 300ms;
+}
+.portfolio-item > .portfolio-thumbnail:hover > .mask {
+  opacity: 1;
+  border-radius: 4px;
+}
+.portfolio-item > .portfolio-thumbnail > .mask a {
+  color: #ffffff;
+  margin: 0 10px;  
+}
+.portfolio-item > .portfolio-thumbnail > .mask a:hover {
+  text-decoration: none;
+}
+.portfolio-item > .portfolio-thumbnail > .mask i {
+  width: 50px;
+  height: 50px;
+  text-align: center;
+  line-height: 50px;
+  background: #f07057;
+  border: 1px solid #ffffff;
+  border-radius: 50%;
+  color: #ffffff;
+  margin: 5px
+}
+.portfolio-item > .portfolio-thumbnail > .mask i:hover {
+  background: #ffffff;
+  color: #f07057;
+}
+.portfolio-item > .portfolio-thumbnail > .mask > p {
+  position: absolute;
+  top: 50%;
+  margin-top: -60px;
+  float: right;
+}
+.portfolio-item > .portfolio-description {
+  padding: 0 5px;
+}

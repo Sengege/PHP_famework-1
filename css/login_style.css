@@ -1,0 +1,23 @@
+body {height:100%;font-family: Kohinoor Devanagari Regular;background: #BEBEBE;}
+.img-circle{width: 10%;}
+.container {margin-right: auto;padding:0 5% 5% 5%;}
+#myTab{margin:auto;}
+.myTabContent label{color:#9D9D9D;}
+#myTabContent{background-color: #fff;padding-top:5%;padding-bottom: 5%;}
+#submit input{margin-top:2%;background-color:#f18812;color:#fff; cursor:pointer;}
+.active-tab span{font-family:Kohinoor Devanagari Regular;font-size: 30px;color: black; }
+@media (min-width: 1200px) { 
+  .container {width: 40%;}
+}
+@media (min-width: 992px) and (max-width: 1200px) { 
+.container {width: 50%;}
+}
+@media (min-width: 768px) and (max-width: 992px) { 
+.container {width: 50%;}
+}
+@media (min-width: 480px) and (max-width: 768px) { 
+ .container {width: 70%;margin-top: 5%;}
+}
+@media (max-width: 480px) {
+ .container {width: 100%;margin-top: 5%;margin-left: 7%;}
+}

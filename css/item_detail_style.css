@@ -1,0 +1,89 @@
+body{height:100%;background:#eeefef;font-family: Kohinoor Devanagari Regular;letter-spacing: 0.5px;}
+@font-face { font-family:Ave Fedan PERSONAL USE ONLY;src: url('../fonts/AveFedan_PERSONAL_USE.ttf');}
+html * { outline: 0 !important;}
+a:link {text-decoration: none;}
+a:visited {text-decoration: none;}
+a:hover {text-decoration: none;}
+a:active {text-decoration: none;}
+header .navbar-default.scrolled {background: rgba(255, 255, 255, 0.8);-webkit-box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.3);-moz-box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.3);box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.3);padding: 0;border-bottom: 3px solid #ff8542;}
+header .navbar-default {background: none;border: none;padding-top: 40px;padding-bottom: 20px;}
+header .navbar-default.scrolled ul.navbar-nav {padding-top: 15px;padding-bottom: 15px;text-transform: capitalize;font-weight: 400;font-size: 16px;padding: 7px 20px;}
+.navbar-toggle {background-color: #CCC;border: 1px solid rgba(0, 0, 0, 0);}
+@import url('reset.css');
+/* General Demo Style */
+.clr{clear:both;}
+.images_3_of_2 {
+ width:35.2%;
+ float: left;
+ margin-right: 2.6%;
+}
+/* Related Products Style */
+.product-desc {border-right: 1px solid #DDD;}
+.product-img {width: 200px;height: 210px;float: left; margin-right: 2.5%;}
+.product-desc h5 {padding-bottom: 2%;}
+.product-desc h5 a {  color: #555; font-size: 20px;}
+.product-desc h5 a:hover{	color:#ffcc33;text-decoration:none;}
+p.product_descr {  color: #555;  font-size: 1em; line-height: 1.5em;}
+.button1 {	border: none;	background:#1c242b;	padding: 7px 15px;color: #FFF;margin-top: 20%;margin-left: 1%; }
+.button1:hover{	background:#eb5367;}
+/* Circular Content Carousel Style */
+.ca-container{position:relative;margin:25px auto 20px auto;width:990px;height:450px;}
+.ca-wrapper{width:100%;height:100%;position:relative;}
+.ca-item{position:relative;float:left;width:33.5%;height:100%;text-align:center;}
+.ca-more{position: absolute;bottom: 10px;right:0px;padding:4px 15px;font-weight:bold;background: #ccbda2;text-align:center;color: white;font-family: "Georgia","Times New Roman",serif;font-style:italic;text-shadow:1px 1px 1px #897c63;}
+.ca-close{position:absolute;top:10px;right:10px;background:#fff url(../images/cross.png) no-repeat center center;width:27px;height:27px;text-indent:-9000px;outline:none;-moz-box-shadow:1px 1px 2px rgba(0,0,0,0.2);-webkit-box-shadow:1px 1px 2px rgba(0,0,0,0.2);box-shadow:1px 1px 2px rgba(0,0,0,0.2);opacity:0.7;}
+.ca-close:hover{opacity:1.0;}
+.ca-item-main{padding:20px;position:absolute;top:5px;left:5px;right:5px;bottom:5px;background:#fff;overflow:hidden;-moz-box-shadow:1px 1px 2px rgba(0,0,0,0.2);-webkit-box-shadow:1px 1px 2px rgba(0,0,0,0.2);box-shadow:1px 1px 2px rgba(0,0,0,0.2);}
+.ca-item h4{font-family: "Georgia","Times New Roman",serif;font-style:italic;font-size:12px;text-align:left;border-left:10px solid #b0ccc6;padding-left:10px;line-height:24px;margin:10px;position:relative;}
+.ca-item h4 span{text-indent:40px;display:block;}
+.ca-item h4  span.ca-quote{color:#f4eee3;font-size:100px;position:absolute;top:20px;left:0px;text-indent:0px;}
+.ca-content-wrapper{background:#fff;position:absolute;width:0px; height:440px;top:5px;text-align:left;z-index:10000;overflow:hidden;}
+.ca-content{width:660px;overflow:hidden;}
+.ca-content-text{font-size: 14px;font-style: italic;font-family: "Georgia","Times New Roman",serif;margin:10px 20px;padding:10px 20px;line-height:24px;}
+.ca-content-text p{padding-bottom:5px;}
+.ca-content h6{margin:25px 20px 0px 35px;font-size:22px;padding-bottom:5px;color:#000;font-family: 'Coustard', sans-serif;color:#60817a;border-bottom:2px solid #99bcb4;text-shadow: 1px 1px 1px #99BCB4;}
+.ca-content h6 img{width:50px;height:50px;-moz-border-radius: 50px;-webkit-border-radius: 50px;border-radius: 50px;border:2px solid #ff8542;}
+.ca-content ul{margin:20px 35px;height:30px;}
+.ca-content ul li{float:left;margin:0px 2px;text-decoration: none;}
+.ca-nav span{width:25px;height:38px;background:transparent url(../images/arrows.png) no-repeat top left;position:absolute;top:50%;margin-top:-19px;left:-40px;text-indent:-9000px;opacity:0.7;cursor:pointer;z-index:100;}
+.ca-nav span.ca-nav-next{background-position:top right;left:auto;right:-40px;}
+.ca-nav span:hover{opacity:1.0;}
+.choose_myitem span{border-radius: 20%;-webkit-border-radius:20%;-moz-border-radius:20%;border:1px solid #BEBEBE;}
+.choose_myitem span:hover{border-radius: 20%;-webkit-border-radius:20%;-moz-border-radius:20%;}
+.choose_myitem li{ float:left;margin: 1%;}
+.choose_myitem li.cur a{ background-color: #ee8a06;border-radius: 20%;border-radius: 20%;-webkit-border-radius:20%;-moz-border-radius:20%;}
+.myitem_introlf div.myitem_img img{width:30%;}
+ul,ol,li{list-style:none;}
+/* ===== Comments ===== */
+.comments {margin: 20px 0;}
+.list-inline{color:#ff8542;cursor: pointer;}
+.cmt {margin-bottom: 15px;}
+.cmt > a img { height: 50px; width: 50px;-webkit-border-radius:50px;-moz-border-radius:50px;border-radius: 50px; line-height: 50px;text-align: center; float: left; margin: 0 10px 0 0;}
+.cmt > .cmt-block { padding-bottom: 10px; overflow: hidden;}
+.cmt > .cmt-block .profile-link { color: #333333; font-weight: 700;}
+.cmt > .cmt-block .time { margin-left: 10px; font-size: 13px;}
+.cmt > .cmt-block textarea {  border-radius: 0;}
+.cmt > .cmt-block > .cmt-body {margin-top: 5px;}
+footer {padding: 5% 0 5%;background-color: #373b44;color: #ccc;position: relative;}
+footer .footer-logo a span {color: #fff;display: inline-block;position: absolute;margin-left: 5px;}
+footer .footer-text {margin-top: 20px;font-weight: 600;}
+footer .footer-text p {margin: 3px;font-weight: 400;}
+footer .footer-title {text-transform: uppercase;color: #fff;font-weight: bold;margin-bottom: 30px;margin-top: 10px;}
+footer nav {margin-top: -12px;}
+footer ul {list-style: none;padding: 0;color: #ccc;}
+footer ul li a {color: #ccc !important;font-weight: 400;}
+footer ul li {padding: 3px 0;}
+
+@media (min-width: 1200px) {  }
+@media (min-width: 992px) and (max-width: 1200px) { }
+@media (min-width: 768px){ }
+@media (max-width: 768px) {
+ header .navbar-default .navbar-toggle {margin-top: 2%;margin-right: 2%;background:  url(../images/long.png) no-repeat center #ee8a06;border:4px solid #ee8a06;color: #ee8a06;-webkit-border-radius: 5em;-moz-border-radius: 5em;-ms-border-radius: 5em;-o-border-radius: 5em;border-radius: 5em;}
+ header .navbar-default .navbar-toggle:hover, header .navbar-default .navbar-toggle:focus {background:  url(../images/long.png) no-repeat center #ee8a06;}
+ #myCarousel{margin-top: 40px;}
+ .navbar-header img{width: 100px;}
+ #myphoto {width:100px;margin-top: 50px;}
+ #item_picture{width: 250px;}
+ #sendrequest{margin-top: 6%;}
+}
+

@@ -1,0 +1,15 @@
+.custom{
+    color:#7f8c8d;
+}
+
+.custom:active{
+    color:dodgerblue;
+}
+
+.blue{
+    color: dodgerblue;
+}
+
+.grey{
+    color: #7f8c8d;
+}

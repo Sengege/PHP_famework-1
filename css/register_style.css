@@ -1,0 +1,25 @@
+body{background: #BEBEBE; height:100%;font-family: Kohinoor Devanagari Regular;margin-top: 1%;}
+@font-face { font-family:Ave Fedan PERSONAL USE ONLY;src: url('../fonts/AveFedan_PERSONAL_USE.ttf');} 
+.container{margin-top: 2%;}
+.myTabContent label{color:#9D9D9D;}
+.active-tab{font-family: Ave Fedan PERSONAL USE ONLY;font-size: 40px;color:#f18812;margin-left:10%;}
+#myTabContent{background-color: #fff;padding-top:5%;padding-bottom: 5%;}
+#submit input{margin-top:2%;background-color:#f18812;color:#fff; cursor:pointer;}
+.active-tab span{font-family:Kohinoor Devanagari Regular;font-size: 30px;color: black; }
+.copy{margin-top: 5%;}
+
+@media (min-width: 1200px) {
+    .container {width: 52%;}
+}
+@media (min-width: 992px) and (max-width: 1200px) { 
+.container {width: 60%;}
+}
+@media (min-width: 768px) and (max-width: 992px) { 
+.container {width: 60%;}
+}
+@media (min-width: 480px) and (max-width: 768px) { 
+ .container {width: 80%;}
+ }
+@media (max-width: 480px) {
+ .container {width: 100%;}
+}

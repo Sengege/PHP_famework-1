@@ -1,0 +1,234 @@
+<nav id="zlight-nav">
+	<ul id="zlight-main-nav">
+		<li class="zlight-dropdown">
+			<a href="home.php">
+				<img src="../images/parent.png" width="50%" />
+			</a>
+			<ul class="zlight-submenu">
+				<li class="zlight-dropdown">
+					<a href="cate_items.php">ITEMS</a>
+					<ul class="zlight-submenu">
+						<li>
+							<a href="cate_items_cate.php">Clothes</a>
+						</li>
+						<li>
+							<a href="cate_items_cate.php">Books</a>
+						</li>
+						<li>
+							<a href="cate_items_cate.php">Furniture</a>
+						</li>
+						<li>
+							<a href="cate_items_cate.php">Electronics</a>
+						</li>
+						<li>
+							<a href="cate_items_cate.php">Games</a>
+						</li>
+						<li>
+							<a href="cate_items_cate.php">Others</a>
+						</li>
+					</ul>
+				</li>
+				<li class="zlight-dropdown">
+					<a href="cate_skills.php">SKILLS</a>
+					<ul class="zlight-submenu">
+						<li>
+							<a href="cate_skills_cate.php">Academic</a>
+						</li>
+						<li>
+							<a href="cate_skills_cate.php">Computer</a>
+						</li>
+						<li>
+							<a href="cate_skills_cate.php">Artistic</a>
+						</li>
+						<li>
+							<a href="cate_skills_cate.php">Cooking</a>
+						</li>
+						<li>
+							<a href="cate_skills_cate.php">Languages</a>
+						</li>
+						<li>
+							<a href="cate_skills_cate.php">Others</a>
+						</li>
+					</ul>
+				</li>
+				<li class="zlight-dropdown">
+					<a href="cate_experiences.php">EXPERIENCES</a>
+					<ul class="zlight-submenu">
+						<li>
+							<a href="cate_exper_cate.php">Travel</a>
+						</li>
+						<li>
+							<a href="cate_exper_cate.php">Food</a>
+						</li>
+						<li>
+							<a href="cate_exper_cate.php">History</a>
+						</li>
+						<li>
+							<a href="cate_exper_cate.php">Fitness</a>
+						</li>
+						<li>
+							<a href="cate_exper_cate.php">Culture</a>
+						</li>
+						<li>
+							<a href="cate_exper_cate.php">Others</a>
+						</li>
+					</ul>
+				</li>
+			</ul>
+		</li>
+	</ul>
+	<div id="zlight-mobile-nav">
+		<span>Menu</span>
+		<!-- <i class="icon-reorder zlight-icon"></i>
+	-->
+	<select></select>
+</div>
+</nav>
+<nav class="navbar navbar-default navbar-fixed-top scrolled" role="navigation">
+<div class="container">
+	<div class="row">
+
+		<div class="col-lg-2 col-md-2 col-md-offset-1 col-sm-2 col-sm-offset-1 col-xs-2 col-xs-offset-0">
+			<div class="navbar-header">
+				<button aria-expanded="true" type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+					<span class="fa fa-bars fa-lg"></span>
+				</button>
+				<a  href="home.php">
+					<img src="../images/Logo_v3-01.png" width="100%" />
+				</a>
+			</div>
+		</div>
+
+		<div class="col-lg-5 col-lg-offset-0 col-md-5 col-md-offset-0 col-sm-4 col-sm-offset-0 col-xs-8 col-xs-offset-0">
+			<div class="input-group" style="margin-top: 3%;filter:alpha(opacity=70);-moz-opacity:0.7;-khtml-opacity: 0.7;opacity: 0.7; ">
+				<input type="text" class="form-control">
+				<span class="input-group-btn">
+					<button class="btn btn-default" type="button">
+						<span class="glyphicon glyphicon-search"></span>
+					</button>
+				</span>
+			</div>
+		</div>
+		<div class="col-lg-1 col-lg-offset-3 col-md-1 col-md-offset-3 col-sm-1 col-sm-offset-4 col-xs-2">
+			<div class="dropdown">
+				<button type="button" class="btn dropdown-toggle" id="dropdownMenu1" 
+      data-toggle="dropdown" style="background-color: #fff;margin-top: 5%;">
+					<img src="../images/person.jpg" style=" height: 40px;width: 40px;border-radius: 50px;text-align: center;margin: 0 10px 0 0;-webkit-border-radius:50px;-moz-border-radius:50px;" />
+					<span class="caret"></span>
+				</button>
+				<ul class="dropdown-menu pull-right" role="menu" aria-labelledby="dropdownMenu1">
+
+					<li role="presentation">
+						<a role="menuitem" tabindex="-1" href="myprofile.php">
+							<span class="glyphicon glyphicon-user"></span>
+							My profile
+						</a>
+					</li>
+					<li role="presentation" class="divider"></li>
+					<li role="presentation">
+						<a data-toggle="modal" class="mymessages" data-target="#messagesModal" role="menuitem" tabindex="-1" href="myprofile.php#messages">
+							<span  class="glyphicon glyphicon-envelope"></span>
+							My messages
+						</a>
+					</li>
+					<li role="presentation" class="divider"></li>
+					<li role="presentation">
+						<a role="menuitem" tabindex="-1" href="edit_profile.php">
+							<span  class="glyphicon glyphicon-edit"></span>
+							My edit
+						</a>
+					</li>
+					<li role="presentation" class="divider"></li>
+					<li role="presentation">
+						<a role="menuitem" tabindex="-1" href="#">
+							<span class="glyphicon glyphicon-log-out" ></span>
+							Log out
+						</a>
+					</li>
+				</ul>
+			</div>
+		</div>
+	</div>
+</div>
+
+</nav>
+<div class="modal fade" id="messagesModal" tabindex="-1" role="dialog"  aria-labelledby="myModalLabel" aria-hidden="true">
+	<script>
+$(".mymessages").click(function(){
+  $('.popover-show').popover('hide');
+});
+</script>
+
+<div class="modal-dialog">
+	<div class="modal-content">
+		<div class="modal-header">
+			<button type="button" class="close"  data-dismiss="modal" aria-hidden="true">&times;</button>
+			<h4 class="modal-title" id="myModalLabel">Messages</h4>
+		</div>
+		<div class="modal-body">
+			<div class="container">
+				<div class="row">
+					<div class="col-lg-1 col-md-1 col-sm-2 col-xs-2">
+						<img src="../images/person.jpg" style="height: 50px;width: 50px;border-radius: 50px;text-align: center;" />
+						<p> <strong style="color: #000;text-align: center;">Eve</strong>
+						</p>
+						<p style="color: #BEBEBE;text-align: left;" class="data">2016-5-23</p>
+					</div>
+					<div class="col-lg-5 col-md-6 col-sm-8 col-xs-12">
+						<p>I like this cloth.Can you give me more picture?</p>
+
+						<div id="editor_answer_1" style="color: #ff8542;cursor:pointer;" >Answer</div>
+						<div id="editor_1" style="display:none">
+							<form role="form">
+								<div class="form-group">
+									<textarea id="leave_message" class="form-control" rows="1"></textarea>
+								</div>
+								<div class="form-group">
+									<div class="col-lg-4 col-md-4 col-sm-4 col-xs-6">
+										<input type="button" class="form-control btn btn-danger" id="name" value="submit" ></div>
+								</div>
+							</form>
+						</div>
+						<script>
+$("#editor_answer_1").click(function(){
+  $("#editor_1").toggle();
+});
+</script>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-lg-1 col-md-1 col-sm-2 col-xs-2">
+						<img src="../images/menu6.jpg" style="height: 50px;width: 50px;border-radius: 50px;text-align: center;" />
+						<p> <strong style="color: #000;text-align: center;">USENAME</strong>
+						</p>
+						<p style="color: #BEBEBE;text-align: left;" class="data">2016-5-21</p>
+					</div>
+					<div class="col-lg-5 col-md-6 col-sm-8 col-xs-12">
+						<p>It's very beautiful.</p>
+
+						<div id="editor_answer_2" style="color: #ff8542;cursor:pointer;" >Answer</div>
+						<div id="editor_2" style="display:none">
+							<form role="form">
+								<div class="form-group">
+									<textarea id="leave_message" class="form-control" rows="1"></textarea>
+								</div>
+								<div class="form-group">
+									<div class="col-lg-4 col-md-4 col-sm-4 col-xs-6">
+										<input type="button" class="form-control btn btn-danger" id="name" value="submit" ></div>
+								</div>
+							</form>
+						</div>
+						<script>
+$("#editor_answer_2").click(function(){
+  $("#editor_2").toggle();
+});
+</script>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+<!-- /.modal-content -->
+</div>
+<!-- /.modal -->

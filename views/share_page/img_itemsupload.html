@@ -1,0 +1,107 @@
+<div class="modal fade" id="img_itemsupload" tabindex="-1" role="dialog"
+     aria-labelledby="itemsLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close"
+                        data-dismiss="modal" aria-hidden="true">&times;</button>
+                <h4 class="modal-title" id="itemsLabel">Add item</h4>
+            </div>
+            <div class="modal-body">
+                <div class="container kv-main" style="width: 100%;">
+                    <div class="row">
+                        <form enctype="multipart/form-data" role="form" method="post"
+                              action="../classes/routers/add_object_router.php">
+                            <div class="form-group">
+                                <input id="file-5" class="file" name="images[]" type="file" multiple
+                                       data-preview-file-type="any"
+                                       data-upload-url="../classes/routers/add_object_router.php"
+                                       data-preview-file-icon="" accept="image/jpeg, image/png, image/jpg"></div>
+
+                            <script>
+                                $(document).ready(function () {
+                                    $("#file-5").fileinput({
+                                        'showPreview': true,
+                                        'allowedFileExtensions': ['jpg', 'png', 'jpeg'],
+                                        'elErrorContainer': '#errorBlock',
+                                        'showUpload': false
+                                    });
+                                });
+                            </script>
+
+                            <div class="form-group">
+                                <div class="col-lg-8  col-sm-8 col-xs-10">
+                                    <input type="text" class="form-control" id="title" name="title"
+                                           placeholder="Title"></div>
+                            </div>
+
+                            <div class="form-group">
+                                <div class="col-lg-8  col-sm-8 col-xs-10">
+                           <textarea type="text" class="form-control" id="txt_content" name="description"
+                                     placeholder="Please add description"></textarea>
+                                </div>
+                            </div>
+                            <div class="form-group" >
+                                <div class="col-lg-8  col-sm-8 col-xs-10">
+                                    <input type="text" class="form-control" name="swapping_for"
+                                           placeholder="Tell other swopers what you would like in exchange" >
+                                </div>
+                            </div>
+                            <fieldset disabled>
+                                <div class="form-group">
+                                    <div class="col-lg-8  col-sm-8 col-xs-10">
+                                        <select class="form-control" id="disabledSelect" >
+                                            <option>Items</option>
+                                        </select>
+                                    </div>
+                                </div>
+                            </fieldset>
+                            <div class="form-group">
+                                <div class="col-lg-8  col-sm-8 col-xs-10">
+                                    <select class="form-control" id="subcategory_items" name="sub_category_type_id">
+                                        <option selected="selected">Clothes</option>
+                                        <option>Books</option>
+                                        <option>Furniture</option>
+                                        <option>Electronics</option>
+                                        <option>Games</option>
+                                        <option id="items_other">Other</option>
+                                    </select>
+                                </div>
+                            </div>
+                            <div class="form-group" id="items_new_category" style="display:none">
+                                <div class="col-lg-8  col-sm-8 col-xs-10">
+                                    <input type="text" class="form-control" id="own_category"
+                                           placeholder="Enter your own category"></div>
+                            </div>
+                            <script>
+                                $("#items_other").click(function(){
+                                    $("#items_new_category").css("display","block");
+                                });
+                                $("#subcategory_items option:eq(0),#subcategory_items option:eq(1),#subcategory_items option:eq(2),#subcategory_items option:eq(3),#subcategory_items option:eq(4)").click(function(){
+                                    $("#items_new_category").css("display","none");
+                                });
+                            </script>
+                            <div class="form-group" >
+                                <div class="col-lg-8  col-sm-8 col-xs-10">
+                                    <input type="text" class="form-control" id="value_category"
+                                           placeholder="Value category"></div>
+                            </div>
+
+                            <div class="form-group">
+                                <div class="col-lg-2 col-lg-offset-0 col-md-offset-4 col-sm-offset-4 col-xs-offset-3">
+                                    <button type="submit" name="submit" class="btn btn-warning">Save changes</button>
+                                </div>
+                            </div>
+                            <input type="hidden" name="category_type" value="ITEM">
+                            <input type="hidden" name="value_type" value="MEDIUM">
+                            <!--TODO-->
+                            <!--<input type="hidden" name="sub_category_type_id" value="">-->
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- /.modal-content --> </div>
+    <!-- /.modal -->
+</div>
+

@@ -1,0 +1,131 @@
+@font-face {
+    font-family: 'Niagsol';
+    src: url("../fonts/Niagsol.TTF");
+}
+a:link {text-decoration: none;color: black;}
+a:visited {text-decoration: none;color: black;}
+a:hover {text-decoration: none;color: black;}
+a:active {text-decoration: none;color: black;}
+body {
+    text-align: center;
+}
+
+div#main_box {
+    position: fixed;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    z-index: 0;
+}
+
+div#main_box > img {
+    height: 100%;
+    width: 100%;
+    border: 0;
+}
+
+#inner01_box {
+    width: 280px;
+    height: 125px;
+    padding: 10px;
+    background: #fff;
+    opacity: 0.5;
+    z-index: 1;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    margin: -125px 0 0 -280px;
+    display: table;
+}
+
+#inner01_cell {
+    display: table-cell;
+    vertical-align: middle;
+}
+
+#inner01_box p {
+    font-family: Georgia;
+    font-size: 40px;
+}
+
+#inner02_box {
+    width: 280px;
+    height: 125px;
+    padding: 10px;
+    background: #fff;
+    opacity: 0.5;
+    z-index: 1;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    margin: -125px 0 0 20px;
+    display: table;
+}
+
+#inner02_cell {
+    display: table-cell;
+    vertical-align: middle;
+}
+
+#inner02_box h1 {
+    font-family: FangSong_GB2312;
+    font-size: 35px;
+}
+
+#inner02_box h2 {
+    font-family: PMingLiU; 
+    font-size: 15px;
+}
+
+#inner03_box {
+    width: 280px;
+    height: 125px;
+    padding: 10px;
+    background: #fff;
+    opacity: 0.5;
+    z-index: 1;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    margin: 20px 0 0 -280px;
+    display: table;
+}
+
+#inner03_cell {
+    display: table-cell;
+    vertical-align: middle;
+}
+
+
+#inner03_box h1{
+    font-size: 35px;
+}
+
+#inner03_box h2{
+    font-size: 15px;
+}
+
+#inner04_box {
+    width: 280px;
+    height: 125px;
+    padding: 10px;
+    background: #fff;
+    opacity: 0.5;
+    z-index: 1;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    margin: 20px 0 0 20px;
+    display: table;
+}
+
+#inner04_cell {
+    display: table-cell;
+    vertical-align: middle;
+}
+
+#inner04_box p {
+    font-family: Georgia;
+    font-size: 40px;
+}
